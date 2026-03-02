@@ -3,23 +3,23 @@ using namespace std;
 
 int main(){
     system ("cls");
-    // int x;
+     int x;
 
-    // cout << "Masukkan nilai : " ;
-    // cin >> x;
+    cout << "Masukkan nilai : " ;
+    cin >> x;
     
     // // if statement
-    // if (x > 75)
-    // {
-    //     cout << "anda lulus" << endl;
-    // }
+    if (x > 75)
+    {
+        cout << "anda lulus" << endl;
+    }
 
     // if else statement
-    // if (x > 75) {
-    //     cout << "anda lulus" << endl;
-    // } else {
-    //     cout << "anda kurang ajar" << endl;
-    // }
+    if (x > 75) {
+        cout << "anda lulus" << endl;
+    } else {
+        cout << "anda kurang ajar" << endl;
+    }
 
     // if else if statement 
     string lampu;
@@ -35,3 +35,5 @@ int main(){
     } 
     
 }
+
+
